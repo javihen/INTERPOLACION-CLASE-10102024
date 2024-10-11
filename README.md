@@ -55,21 +55,15 @@ Con los coeficientes calculados en la tabla de diferencias divididas, el polinom
 ## 4. Evaluación en \( h = 5.000 \)
 Finalmente, evaluamos el polinomio en \( h = 5.000 \):
 
-\[
-P(5.000) = 182.28 \, \text{F}
-\]
+P(5.000) = 182.28 
 
 Utilizando el polinomio construido, se estima la temperatura para **11,942 ft** que corresponde a la Ciudad de La Paz. El resultado aproximado es:
 
-\[
-T(11,942 \text{ ft}) \approx 188.78 \, ^\circ F
-\]
+T(11,942) = 188.78
 
 Utilizando el polinomio construido, se estima la temperatura para **13,615 ft** que corresponde a la Ciudad de El Alto. El resultado aproximado es:
 
-\[
-T(13,615 \text{ ft}) \approx 186.15 \, ^\circ F
-\]
+T(13,615) = 186.15
 
 Esto se lo puede observar el archivo adjunto con extension XLS (excel)
 
