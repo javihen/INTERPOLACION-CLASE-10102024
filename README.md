@@ -20,9 +20,6 @@ La fórmula general para el polinomio de Newton es:
 
 ![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/1.png)
 
-\[
-P(x) = f(x_0) + (x - x_0) f[x_0, x_1] + (x - x_0)(x - x_1) f[x_0, x_1, x_2] + \dots
-\]
 
 Donde:
 - \( f[x_0, x_1, \dots] \) son las **diferencias divididas**, que representan los coeficientes del polinomio.
@@ -30,15 +27,11 @@ Donde:
 ## 2. Cálculo de las diferencias divididas
 Para calcular las diferencias divididas, utilizamos la siguiente fórmula para la primera orden:
 
-\[
-f[x_i, x_{i+1}] = \frac{f(x_{i+1}) - f(x_i)}{x_{i+1} - x_i}
-\]
+![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/2.png)
 
 Luego, para diferencias de mayor orden:
 
-\[
-f[x_i, x_{i+1}, x_{i+2}] = \frac{f[x_{i+1}, x_{i+2}] - f[x_i, x_{i+1}]}{x_{i+2} - x_i}
-\]
+![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/3.png)
 
 Se procede de forma iterativa hasta el orden máximo que corresponde al número de puntos en la tabla.
 
@@ -57,15 +50,7 @@ Se procede de forma iterativa hasta el orden máximo que corresponde al número 
 ## 3. Polinomio de interpolación de Newton
 Con los coeficientes calculados en la tabla de diferencias divididas, el polinomio de Newton que resulta es:
 
-\[
-P(x) = 213.9000 - 6.2295(x + 0.305) - 0.0953(x)(x - 0.914) + 0.0025(x)(x - 0.914)(x - 2.438) 
-\]
-\[
-+ 0.0161(x)(x - 0.914)(x - 2.438)(x - 4.572) - 0.0051(x)(x - 0.914)(x - 2.438)(x - 4.572)(x - 6.706) 
-\]
-\[
-+ 0.0009(x)(x - 0.914)(x - 2.438)(x - 4.572)(x - 6.706)(x - 8.534)
-\]
+![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/4.png)
 
 ## 4. Evaluación en \( h = 5.000 \)
 Finalmente, evaluamos el polinomio en \( h = 5.000 \):
