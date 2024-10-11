@@ -1,7 +1,7 @@
-# Cálculo de \( T(5.000) \) utilizando interpolación de Newton
+# Cálculo de \( T(5.000) \), \( T(11.942) \), \( T(13.615) \),  utilizando interpolación de Newton
 
 ## Introducción
-El objetivo es calcular el valor de \( T \) a una altura de \( h = 5.000 \) metros, usando interpolación de Newton, basada en la siguiente tabla de valores:
+El objetivo es calcular el valor de \( T \) a una altura de \( h = 5.000 \) metros, ademas de las alturas de la ciudad de La Paz y El Alto usando interpolación de Newton, basada en la siguiente tabla de valores:
 
 | \( h(m) \)  | \( T(F) \)  |
 |-------------|-------------|
@@ -23,6 +23,15 @@ La fórmula general para el polinomio de Newton es:
 
 Donde:
 - \( f[x_0, x_1, \dots] \) son las **diferencias divididas**, que representan los coeficientes del polinomio.
+
+Ademas de poder obtener la grafica correspondiente la cual es la siguiente:
+
+![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/1.png)
+
+Puntos en azul: Representan los datos originales de altitud y temperatura.
+Curva naranja: Muestra el polinomio interpolador de Newton que se ajusta a los datos.
+Línea roja discontinua: Indica la altitud de 13,615 pies.
+Línea verde discontinua: Muestra la temperatura estimada a 13,615 pies, que es aproximadamente 186.15°F.
   
 ## 2. Cálculo de las diferencias divididas
 Para calcular las diferencias divididas, utilizamos la siguiente fórmula para la primera orden:
