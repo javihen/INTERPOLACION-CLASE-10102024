@@ -18,7 +18,7 @@ La interpolación de Newton es una técnica que permite estimar el valor de una 
 
 La fórmula general para el polinomio de Newton es:
 
-![Formula general]([URL_de_la_imagen](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/1.png))
+![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/1.png)
 
 \[
 P(x) = f(x_0) + (x - x_0) f[x_0, x_1] + (x - x_0)(x - x_1) f[x_0, x_1, x_2] + \dots
