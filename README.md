@@ -26,7 +26,7 @@ Donde:
 
 Ademas de poder obtener la grafica correspondiente la cual es la siguiente:
 
-![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/1.png)
+![Formula general](https://github.com/javihen/INTERPOLACION-CLASE-10102024/blob/main/imagenes/5.png)
 
 Puntos en azul: Representan los datos originales de altitud y temperatura.
 Curva naranja: Muestra el polinomio interpolador de Newton que se ajusta a los datos.
