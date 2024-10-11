@@ -72,5 +72,31 @@ Finalmente, evaluamos el polinomio en \( h = 5.000 \):
 P(5.000) = 182.28 \, \text{F}
 \]
 
+Utilizando el polinomio construido, se estima la temperatura para **11,942 ft** que corresponde a la Ciudad de La Paz. El resultado aproximado es:
+
+\[
+T(11,942 \text{ ft}) \approx 188.78 \, ^\circ F
+\]
+
+Utilizando el polinomio construido, se estima la temperatura para **13,615 ft** que corresponde a la Ciudad de El Alto. El resultado aproximado es:
+
+\[
+T(13,615 \text{ ft}) \approx 186.15 \, ^\circ F
+\]
+
+Esto se lo puede observar el archivo adjunto con extension XLS (excel)
+
 ## 5. Conclusión
-El valor estimado de la temperatura \( T(5.000) \) usando interpolación de Newton es **182.28°F**. Esta técnica es útil para realizar aproximaciones precisas cuando los datos exactos no están disponibles en el conjunto original de mediciones.
+Esta técnica es útil para realizar aproximaciones precisas cuando los datos exactos no están disponibles en el conjunto original de mediciones.
+La comparación entre los métodos de Newton y Lagrange para interpolación depende de varios factores, como la facilidad de uso, la estabilidad numérica y la precisión.
+
+¿Cuál es mejor en este caso?
+Para el problema específico de encontrar 
+
+T(5.000), T(11.942) y T(13,615) usando los datos de la tabla:
+
+Ambos métodos producen el mismo resultado ya que los puntos de interpolación son los mismos.
+Si no necesitas recalcular con frecuencia o añadir más datos, el método de Lagrange es probablemente más sencillo de implementar.
+Si estás interesado en la eficiencia y quieres ir agregando más puntos al conjunto de datos, el método de Newton sería más adecuado.
+
+Para un conjunto fijo de datos y un solo cálculo, ambos métodos son equivalentes en términos de error. Elige el método que te resulte más cómodo: Lagrange para simplicidad, Newton para eficiencia en modificaciones.
